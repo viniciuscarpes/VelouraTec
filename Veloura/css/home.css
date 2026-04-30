@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: #0D001A;
+}
+
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho {
+    background-color: #27004b;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #27004b;
+    color: azure;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 87%;
+    height: 100vh;
+    display: none;
+}
+
+
+.text-menu-lateral {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-btn {
+    background-color: #27004b;
+    border: none;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.img-carrinho {
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.img-carrinho:hover {
+    transform: scale(1.2);
+}
+
+.pesquisar {
+    width: 300px;
+    height: 17px;
+    border: none;
+    border-radius: 5.5px;
+    padding: 4px;
+    color: #6f1bbc;
+}
+
+.barra_de_pesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lupa {
+    position: fixed;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.sec-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+
+.produto {
+    background-color: #27004b;
+    padding: 5px;
+    width: 225px;
+}
