@@ -1,11 +1,11 @@
-const carrinho = document.getElementById('carrinho');
 const menu = document.getElementById('menu');
+const texto = document.getElementById('text');
 
 
 function verCarrinho() {
-    if (menu.style.display === "block") {
-        menu.style.display = "none";
+    if (menu.style.width === "0px") {
+        menu.style.width = "240px";
     } else {
-        menu.style.display = "block";
+        menu.style.width = "0";
     }
 }

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-image: url('./Gemini_Generated_Image_fsk7e5fsk7e5fsk7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #2d005e, #5100a8);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    color: azure;
+    height: 345px;
+    box-shadow: 0 0 10px azure;
+}
+
+.info {
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: #993aff 1px 1px 1px, azure 2px 2px 2px ;
+    color: #7a00ff;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.p-form {
+    margin-bottom: 8px;
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+.text-form {
+    margin-bottom: 30px;
+    color: #8d22ff;
+    text-shadow: azure 0 0 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: #7a00ff;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    margin-top: 20px;
+    color: azure;
+    box-shadow: 0 0 10px rgba(122, 0, 255, 0.6);
+}
+
+.btn:hover {
+    background-color: #6f02e3;
+    transition: 0.3s;
+}
+
+.btn-esqueci {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.esqueci {
+    color: #993aff;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.esqueci:hover {
+    color: #7a00ff;
+}

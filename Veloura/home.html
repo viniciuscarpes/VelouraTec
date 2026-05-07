@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
-    <title>VelouraTec</title>
+    <title>Veloura</title>
     <link rel="shortcut icon" href="imgs/carta-v.png" type="image/x-icon">
     <link rel="stylesheet" href="css/home.css">
     <script src="js/home.js" defer></script>
@@ -19,7 +19,7 @@
                     <img src="imgs/lupa.png" alt="pesquisar" height="20px" class="lupa">
                     <input type="text" placeholder="Pesquise seu produto" class="pesquisar">
                 </div>
-                <button class="img-btn" id="carrinho" onclick="verCarrinho()"><img src="imgs/carrinho-de-compras.png"
+                <button class="img-btn" onclick="verCarrinho()"><img src="imgs/carrinho-de-compras.png"
                         alt="carrinho de compras" height="40px" class="img-carrinho"></button>
             </div>
         </header>
@@ -28,24 +28,143 @@
     <div class="page">
 
         <div class="menu-lateral" id="menu">
-            <p class="text-menu-lateral">Meu carrinho</p>
+            <p class="text-menu-lateral" id="text">Carrinho</p>
         </div>
 
-        <!-- <main>
+        <main>
             <section class="sec-produtos">
                 <div class="produto">
-                    <img src="imgs/download.jpeg" alt="tenis da nike" height="150px">
+                    <img src="imgs/ChatGPT Image 5 de mai. de 2026, 19_37_22.png" alt="tenis da nike" height="200px"
+                        class="img-produto" id="img">
                     <div class="descricao">
-                        <p class="text-descricao">Esse produto é de alta qualidade...</p>
+                        <p class="text-descricao">Esse fone gamer é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$299,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/ChatGPT Image 5 de mai. de 2026, 19_36_48.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse Pc gamer é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$9.999,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/ChatGPT Image 5 de mai. de 2026, 19_38_49.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse teclado é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$299,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/ChatGPT Image 5 de mai. de 2026, 19_40_05.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse mouse é de alta qualidade...</p>
                         <a href="" class="more"> Saiba mais </a>
                     </div>
                     <h2 class="preco">R$199,99</h2>
                     <button class="btn">ADICIONAR AO CARRINHO</button>
                 </div>
+                <div class="produto">
+                    <img src="imgs/ChatGPT Image 5 de mai. de 2026, 19_41_30.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse monitor é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$499,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/4f38c839-47c7-4323-a47d-03ceb310689e.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Essa cadeira é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$999,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/ec42381f-018d-44d8-a968-ae120ee5366a.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse PS5 é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$1.999,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/89c3c505-9085-428f-8300-1ea7cb76c66d.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse iphone 17 é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$11.999,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/0cd5a37f-2b24-4721-9c7d-5405be651db1.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse Redmi é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$2.499,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/Gemini_Generated_Image_vuybpsvuybpsvuyb.png" alt="tenis da nike"
+                        height="200px class=" img-produto"">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse MacBock é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$19.999,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
+                <div class="produto">
+                    <img src="imgs/Gemini_Generated_Image_j03stuj03stuj03s.png" alt="tenis da nike" height="200px"
+                        class="img-produto">
+                    <div class="descricao">
+                        <p class="text-descricao">Esse fone é de alta qualidade...</p>
+                        <a href="" class="more"> Saiba mais </a>
+                    </div>
+                    <h2 class="preco">R$149,99</h2>
+                    <button class="btn">ADICIONAR AO CARRINHO</button>
+                </div>
             </section>
-        </main> -->
-
+            <section class="sec-contato">
+                <div class="container2">
+                    <h2 class="title-contact">Entre em contato conosco!</h2>
+                    <div class="info">
+                        <label for="name">nome</label>
+                        <input type="text" id="name" class="input" placeholder="Digite seu nome...">
+                    </div>
+                    <div class="info">
+                        <label for="email">email</label>
+                        <input type="email" id="email" class="input" placeholder="Digite seu email...">
+                    </div>
+                    <button class="btn2">
+                        Enviar
+                    </button>
+                </div>
+            </section>
+        </main>
     </div>
+    <footer class="foo">
+        <p>Desenvolvido por Velura</p>
+    </footer>
 </body>
 
 </html>
