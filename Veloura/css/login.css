@@ -5,7 +5,7 @@
 
 body {
     font-family: monospace;
-    background-image: url('./Gemini_Generated_Image_fsk7e5fsk7e5fsk7.png');
+    background-image: url('./fundoLogin.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #2d005e, #5100a8);
+    background: linear-gradient(to right, #25004d, #4b009b);
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
@@ -33,6 +33,10 @@ body {
     color: azure;
     height: 345px;
     box-shadow: 0 0 10px azure;
+}
+
+.img-v {
+    margin-bottom: 10px;
 }
 
 .info {
@@ -50,12 +54,12 @@ body {
     margin-bottom: 8px;
     margin-bottom: 30px;
     font-family: cursive;
+    color: rgb(235, 235, 235);
 }
 
 .text-form {
     margin-bottom: 30px;
-    color: #8d22ff;
-    text-shadow: azure 0 0 3px;
+    color: azure;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
 }

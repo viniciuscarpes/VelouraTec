@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.text-princ {
+    color: azure;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: #27004b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.geral {
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #27004b;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.description {
+    font-size: 25px;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 900;
+}
+
+.btn {
+    background-color: #5835cd;
+    position: fixed;
+
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    background-color: #000000;
+}
+
+.text-princ {
+    color: azure;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: #27004b;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
