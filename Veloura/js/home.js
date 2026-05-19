@@ -23,6 +23,8 @@ const banner = document.querySelector(".img-banner");
 const text = document.querySelector(".textnosso");
 const contato = document.querySelector(".container2");
 const footer = document.querySelector(".foo");
+const perfil = document.querySelector(".perfil")
+const links = document.querySelectorAll(".lend")
 
 
 
@@ -35,14 +37,17 @@ btn2.addEventListener("click", function () {
     imgBtn.style.backgroundColor = ("#27004b")
     menulateral.style.backgroundColor = "rgba(35, 0, 60, 0.85)"
     banner.src = "imgs/baner.png";
-    text.style.color = "azure"
     contato.style.backgroundColor = "#27004b"
     footer.style.backgroundColor = "#27004b"
+    perfil.style.backgroundColor = "#5835cd"
+        links.forEach(link => {
+        link.style.color = "#a94eff";
+    });
 });
 
 
 btn1.addEventListener("click", function () {
-    body.style.backgroundColor = "#F7F5FF";
+    body.style.backgroundColor = "#866EB8";
     produto.forEach((card) => {
         card.style.backgroundColor = "#9066FF";
     });
@@ -50,7 +55,9 @@ btn1.addEventListener("click", function () {
     imgBtn.style.backgroundColor = "#4B2FA3"
     menulateral.style.backgroundColor = "rgba(75, 47, 163, 0.85)"
     banner.src = "imgs/baner2.png";
-    text.style.color = "#1F1F1F"
     contato.style.backgroundColor = "#9066FF"
     footer.style.backgroundColor = "#4B2FA3"
+    links.forEach(link => {
+        link.style.color = "#250047";
+    });
 });

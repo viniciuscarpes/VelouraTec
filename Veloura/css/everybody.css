@@ -10,6 +10,7 @@ body {
 .text-princ {
     color: azure;
     text-align: center;
+    font-size: 40px;
 }
 
 .cabecalho {
@@ -37,16 +38,62 @@ body {
 
 .description {
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .price {
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 20px;
     font-weight: 900;
 }
 
+.price-color {
+    color: #32D27A;
+}
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 198px;
+}
+
 .btn {
     background-color: #5835cd;
-    position: fixed;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: azure;
+    font-weight: 900;
+    border: none;
+}
 
+.btn:hover {
+    transition: 0.4s;
+    background-color: #3d18b6;
+}
+
+.more-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-more {
+    color: azure;
+    margin-bottom: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+    color: #5835cd;
+}
+
+.table {
+    background-color: #5835cd;
+    color: azure;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
 }

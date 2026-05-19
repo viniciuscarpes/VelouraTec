@@ -6,6 +6,7 @@
 
 body {
     background-color: #000000;
+    transition: 0.5s;
 }
 
 
@@ -21,6 +22,7 @@ body {
     background-color: #27004b;
     padding-bottom: 10px;
     padding-top: 10px;
+    transition: 0.5s;
 }
 
 .menu-lateral {
@@ -62,6 +64,7 @@ body {
 .img-btn {
     background-color: #27004b;
     border: none;
+    transition: 0.5s;
 }
 
 .logo {
@@ -79,11 +82,11 @@ body {
 }
 
 .pesquisar {
-    width: 300px;
+    width: 400px;
     height: 17px;
     border: none;
     border-radius: 1.8px;
-    padding: 5px;
+    padding: 8px;
     color: #6f1bbc;
 }
 
@@ -123,7 +126,7 @@ body {
 }
 
 .produto:hover {
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 
@@ -166,6 +169,7 @@ body {
     padding: 15px;
     text-align: center;
     margin-top: 20px;
+    transition: 0.5s;
 }
 
 .sec-contato {
@@ -183,6 +187,7 @@ body {
     padding: 25px;
     border-radius: 5px;
     box-shadow: 0 0 15px azure;
+    transition: 0.5s;
 }
 
 .info {
@@ -298,6 +303,7 @@ body {
 }
 
 
+
 .nossos-produtos {
     display: block;
     width: 100%;
@@ -333,4 +339,8 @@ h1 {
 
 .btn-mode2:hover {
     transform: scale(1.2);
+}
+
+.lend {
+    color: #a94eff;
 }
