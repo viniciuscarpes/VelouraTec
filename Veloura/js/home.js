@@ -49,13 +49,13 @@ btn2.addEventListener("click", function () {
 btn1.addEventListener("click", function () {
     body.style.backgroundColor = "#866EB8";
     produto.forEach((card) => {
-        card.style.backgroundColor = "#9066FF";
+        card.style.backgroundColor = "#4B2FA3";
     });
     cabecalho.style.backgroundColor = "#4B2FA3"
     imgBtn.style.backgroundColor = "#4B2FA3"
     menulateral.style.backgroundColor = "rgba(75, 47, 163, 0.85)"
-    banner.src = "imgs/baner2.png";
-    contato.style.backgroundColor = "#9066FF"
+    banner.src = "imgs/baner3.png";
+    contato.style.backgroundColor = "#4B2FA3"
     footer.style.backgroundColor = "#4B2FA3"
     links.forEach(link => {
         link.style.color = "#250047";
